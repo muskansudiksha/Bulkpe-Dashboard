@@ -13,19 +13,19 @@ mongoose
   .then(() => console.log("Successfully connected to MongoDB Atlas"))
   .catch((error) => console.error("Unable to connect to MongoDB Atlas", error));
 
-const transactionRouter = require("./routes/transaction"); // Path to transactions route
+const transactionRouter = require("./routes/transaction.js"); // Path to transactions route
 app.use("/api/transaction", transactionRouter);
 
 const savingRouter = require("./routes/saving .js");
 app.use("/api/saving", savingRouter);
 
-const depositRouter = require("./routes/deposit");
+const depositRouter = require("./routes/deposit.js");
 app.use("/api/deposit", depositRouter);
 
-const contactsRouter = require("./routes/contacts");
+const contactsRouter = require("./routes/contacts.js");
 app.use("/api/contacts", contactsRouter);
 
-const accountRouter = require("./routes/account");
+const accountRouter = require("./routes/account.js");
 app.use("/api/account", accountRouter);
 
 app.get("/", function (req, res) {
