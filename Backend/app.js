@@ -28,7 +28,7 @@ app.use("/api/contacts", contactsRouter);
 const accountRouter = require("./routes/account");
 app.use("/api/account", accountRouter);
 
-const PORT = 3500;
-app.listen(3500, () => {
-  console.log(`listening to port ${PORT}`);
+const port = process.env.PORT || 3600;
+app.listen(port, () => {
+  console.log(`listening to port ${port}`);
 });
