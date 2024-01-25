@@ -1,0 +1,55 @@
+.account-summary-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    /* margin-top:2rem; */
+    margin-left:1rem;
+}
+
+.account-card{
+    background-image: url(gradient.jpg);   
+    padding:2rem;
+    border-radius:1rem;
+    
+}
+.account-type{
+    color: white;
+    opacity:0.6;
+    font-size: 0.9rem;
+}
+
+.account-balance{
+    color:white;
+    font-size:1.4rem;
+    opacity:0.95;
+}
+
+.account-number{
+    color: white;
+    opacity:0.6;
+    font-size: 0.9rem;
+}
+
+.account-ifsc{
+    color: white;
+    opacity:0.6;
+    font-size: 0.9rem;
+}
+
+.button{
+    background-color: #F5F0FF;
+    height:100%;
+    border-radius:1rem;
+    padding-inline:2rem;
+    font-family:Montserrat;
+    font-size: 0.8rem;
+    border-color: rgb(207, 207, 207);
+}
+
+.buttondiv{
+    padding-inline:1rem;
+}
+
+

@@ -1,0 +1,33 @@
+.contacts-list{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 4;
+    font-size: 0.8rem;
+    margin-top:0.7rem;
+    background-color: #FFF9C1;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+img{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+}
+
+.contact-card{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pay-button{
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 0.5rem;
+    padding-block:0.3rem;
+    padding-inline: 1rem;
+}

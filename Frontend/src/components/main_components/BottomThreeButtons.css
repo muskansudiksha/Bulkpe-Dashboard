@@ -1,0 +1,54 @@
+.bottom-three-buttons{
+    display:flex;
+    flex-direction: column;
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-size: 0.8rem;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.button-one{
+    background-color: #FFE3C1;
+    padding-right:1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+.button-two{
+    background-color:#C1DEFF;
+    padding-right:1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+.pic{
+    border-radius: 50%;
+    margin-right:2.5rem;
+    margin-left:1rem;
+    height:1.5rem;
+    width:1.5rem;
+}
+.loanss{
+    padding-bottom:1rem;
+}
+
+.button-three{
+    background-image: url(./explore.png);
+    background-size: cover;
+    padding-inline: 2.5rem;
+    border-style: none;
+    border-radius: 1rem;
+    padding-block: 1.7rem;
+    margin-top: 1rem;
+    margin-left:1.7rem;
+    color: white;
+    font-weight: 600;
+}

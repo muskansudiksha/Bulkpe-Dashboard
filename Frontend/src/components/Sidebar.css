@@ -1,0 +1,59 @@
+.Sidebar{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #F5F0FF;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:0.5rem;
+  /* justify-content: space-between; */
+}
+
+
+.logo img{
+    height:auto;
+    width:2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    font-weight: 600;
+    /* color:rgb(58, 57, 57); */
+  }
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    padding: 0.75rem 1rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem; /* Use 'rem' for better responsive scaling */
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-item a.active,
+  .nav-item a:hover {
+    background-color: #e0e0e0; /* Light grey background for active/hover state */
+  }
+
+  

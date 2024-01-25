@@ -1,0 +1,74 @@
+.super-savings-container{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 0.8rem;
+    background-color: #E4FFC1;
+    border-radius: 1rem;
+    margin-inline: 1rem;
+}
+h3{
+    font-weight: 600;
+}
+
+.saving-logo{
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.saving-card{
+    background-color: white;
+    border-radius: 1rem;
+    margin:1rem;
+}
+
+.saving-info{
+    display: flex;  
+    flex-direction: column; 
+    margin-inline:1rem;
+}
+
+.col1{
+    display:flex;
+    justify-content: space-between;
+    font-size:0.7rem;
+}
+
+.col2{
+    display:flex;
+    justify-content: space-between;
+    font-size:0.7rem;
+}
+
+.light{
+    color: rgb(108, 107, 107);
+}
+
+.invest-button{
+    background-color: #FC9F21;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 0.7rem;
+    padding-inline:1.2rem;
+    padding-block: 0.5rem;
+    border-style: none;
+}
+
+.withdraw-button{
+    background-color:black;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 0.7rem;
+    padding-inline:1.2rem;
+    padding-block: 0.5rem;
+    border-style: none;
+}
+
+.button-iw{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:1rem;
+}

@@ -1,0 +1,62 @@
+.topbar {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end:2;
+    width:100%;
+    justify-items: space-around;
+    align-items: center;
+}
+
+.col22{
+    width:80%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;   
+}
+
+.topbar-search{
+    padding-left: 2rem;
+    padding-right:2rem;
+    
+}
+.topbar-search input{
+    border-radius: 1rem;
+    border-style: none;
+    padding-inline:3rem;
+    padding-block: 0.7rem;
+    background-color: #F5F0FF;
+
+}
+
+.topbar-instant-payout button{
+    border-radius: 1rem;
+    border-style: none;
+    padding-inline:2rem;
+    padding-block: 0.7rem;
+    background-color: #4F279B;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.topbar-greeting p{
+    font-weight: 600;
+    padding-left: 3rem;;
+}
+
+.bellicon{
+    height:auto;
+    width:1.7rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.profileicon{
+    height:auto;
+    width:3rem;
+    border-radius: 50%;  
+    cursor: pointer;
+}
