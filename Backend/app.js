@@ -28,6 +28,11 @@ app.use("/api/contacts", contactsRouter);
 const accountRouter = require("./routes/account");
 app.use("/api/account", accountRouter);
 
+app.get("/", function (req, res) {
+  return res.json({ status: 200, mesage: "Server Is Up and Running" });
+});
+
+
 const port = process.env.PORT || 3600;
 app.listen(port, () => {
   console.log(`listening to port ${port}`);
