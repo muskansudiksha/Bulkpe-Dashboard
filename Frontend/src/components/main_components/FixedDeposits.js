@@ -10,7 +10,7 @@ const FixedDeposits = () => {
   useEffect(() => {
     const fetchDeposits = async () => {
       try {
-        const response = await fetch("http://localhost:3500/api/deposit");
+        const response = await fetch("http://localhost:3600/api/deposit");
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

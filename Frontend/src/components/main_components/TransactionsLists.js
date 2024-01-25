@@ -11,7 +11,7 @@ const TransactionsList = () => {
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
-        const response = await fetch("http://localhost:3500/api/transaction");
+        const response = await fetch("http://localhost:3600/api/transaction");
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

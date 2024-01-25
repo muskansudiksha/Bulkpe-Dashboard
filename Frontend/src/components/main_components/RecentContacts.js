@@ -10,7 +10,7 @@ const RecentContacts = () => {
   useEffect(() => {
     const fetchContacts = async () => {
       try {
-        const response = await fetch("http://localhost:3500/api/contacts");
+        const response = await fetch("http://localhost:3600/api/contacts");
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
